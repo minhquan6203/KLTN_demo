@@ -60,8 +60,9 @@ class ViBlipVQAModel(nn.Module):
         else:
             visual_features = self.vision_embedding(image_path)
             ocr_text = self.ocr_extract.get_ocr_text(image_path)
-            caption = self.caption_extract.get_caption(question, image_path)
             self.cache[image_path] = (visual_features, ocr_text)
+        
+        caption = self.caption_extract.get_caption(question, image_path)
         
         print('OCR text:', ocr_text)
         print('Caption text:', caption)
