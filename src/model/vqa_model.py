@@ -56,12 +56,12 @@ class ViBlipVQAModel(nn.Module):
 
     def forward(self, question, image_path):
         if image_path in self.cache:
-            visual_features, ocr_text, caption = self.cache[image_path]
+            visual_features, ocr_text = self.cache[image_path]
         else:
             visual_features = self.vision_embedding(image_path)
             ocr_text = self.ocr_extract.get_ocr_text(image_path)
             caption = self.caption_extract.get_caption(question, image_path)
-            self.cache[image_path] = (visual_features, ocr_text, caption)
+            self.cache[image_path] = (visual_features, ocr_text)
         
         print('OCR text:', ocr_text)
         print('Caption text:', caption)
