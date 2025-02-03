@@ -3,7 +3,7 @@ import torch
 from model.vqa_model import ViBlipVQAModel
 
 # Load config
-with open('./config/viblip_text_config.yaml') as conf_file:
+with open('KLTN_demo/config/viblip_text_config.yaml') as conf_file:
     config = yaml.safe_load(conf_file)
 
 cuda_device = config['train']['cuda_device']
