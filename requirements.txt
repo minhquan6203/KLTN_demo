@@ -9,6 +9,7 @@ transformers
 SentencePiece
 nltk
 torch
+peft
 accelerate
 bitsandbytes
 unidecode
