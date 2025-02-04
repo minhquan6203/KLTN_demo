@@ -52,7 +52,7 @@ with col2:
     question = st.text_input("Nhập câu hỏi về ảnh:")
 
     # Display the prediction result
-    if st.button("Dự đoán"):
+    if st.button("Generate"):
         if question:
             try:
                 # Make prediction using the current image and the input question
