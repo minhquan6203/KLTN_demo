@@ -1,5 +1,4 @@
 easyocr==1.7.1
-google-generativeai
 qwen-vl-utils
 transformers
 flash-attn
@@ -13,6 +12,5 @@ torch
 accelerate
 bitsandbytes
 unidecode
-flask
-flask_cors
+streamlit
 pillow
