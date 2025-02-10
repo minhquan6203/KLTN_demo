@@ -7,7 +7,7 @@ Hệ thống Vietnamese Text-based Visual Question Answering (VQA) là một mô
 Dưới đây là video demo minh họa cách hệ thống hoạt động:
 
 <video width="640" height="360" controls>
-  <source src="vqa_text_demo.mp4" type="video/mp4">
+  <source src="KLTN_demo/vqa_text_demo.mp4" type="video/mp4">
   Trình duyệt của bạn không hỗ trợ thẻ video.
 </video>
 
