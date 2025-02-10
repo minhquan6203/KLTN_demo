@@ -11,7 +11,6 @@ Dưới đây là video demo minh họa cách hệ thống hoạt động:
   Trình duyệt của bạn không hỗ trợ thẻ video.
 </video>
 
-
 ## Tính năng chính
 - **Nhận diện văn bản trong hình ảnh** bằng công nghệ OCR
 - **Trả lời câu hỏi dựa trên văn bản được nhận diện**
